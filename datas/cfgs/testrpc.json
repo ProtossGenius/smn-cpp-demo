@@ -1,0 +1,8 @@
+{
+    "src":"./",
+    "itf_path":"./datas/ricitf",
+    "target":{"cpp_c":"./ric_code","cpp_s":"./ric_code", "cpp_pb":"./ric_code/pb", "cpp_i":"./ric_code"},
+    "proto_path":"./build/proto",
+    "out_path":"./ric_code",
+    "module":"github.com/ProtossGenius/smn-cpp-demo"
+}

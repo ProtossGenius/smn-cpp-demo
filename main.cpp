@@ -76,4 +76,5 @@ int main(){
 	thread t(run_server);
 	smnet::sleep(1000);
 	run_client();
+	t.detach();
 }

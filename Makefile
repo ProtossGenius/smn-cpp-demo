@@ -5,12 +5,13 @@ build: prebuild
 debug:
 
 qrun: build
-	./build/smn-rip-demo
+	sudo ./build/smn-rip-demo
 test:
 
 install: 
 
 update_cmake:
+	rm ./build/* -rf
 	cd build && cmake ..
 
 clean:

@@ -10,7 +10,7 @@ test:
 
 install: 
 
-update_cmake:
+update_cmake: prebuild
 	rm ./build/* -rf
 	cd build && cmake ..
 
